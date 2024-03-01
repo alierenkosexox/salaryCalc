@@ -46,7 +46,7 @@ public class Employee {
 
     // Çalışan bilgilerini yazdır
     public void printEmployee(){
-        // Calculates salaries
+        // Maaşları Hesapla
         double salaryTaxBonus = this.salary-tax()+bonus();
         double totalSalary = salaryTaxBonus+raiseSalary();
 
